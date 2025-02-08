@@ -1,0 +1,45 @@
+h1 {
+    color: lightcoral; 
+    font-family: Trebuchet MS;
+
+}
+body {
+    font-family: Trebuchet MS;
+    background-color: antiquewhite;
+}
+
+section li {
+    color: blue;
+}
+
+section p {
+    color: forestgreen;
+}
+
+section h4 {
+    color: darkslateblue;
+}
+
+.special {
+    color:steelblue;
+}
+
+p {
+    line-height: 1em;
+}
+
+section {
+    width: 700px;
+    margin: auto;
+}
+
+main {
+    width: 700px;
+    margin: auto;
+}
+
+body {
+    width: 700px;
+    margin: auto;
+    text-align: justify;
+}
