@@ -42,10 +42,11 @@ body {
     width: 700px;
     margin: auto;
     text-align: justify;
+    padding: 10px;
 }
 
 h1 {
     background-color: rgb(110, 110, 136);
     text-align: center;
-    
+    padding: 10px;
 }
