@@ -11,6 +11,7 @@ h1 {
 body {
     font-family: Trebuchet MS;
     background-color: antiquewhite;
+    background-image:none
 }
 
 section li {
@@ -18,7 +19,7 @@ section li {
 }
 
 section p {
-    color: forestgreen;
+    color: black;
 }
 
 section h4 {
