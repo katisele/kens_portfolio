@@ -5,6 +5,7 @@ html {
 h1 {
     color: rgb(54, 15, 15); 
     font-family: Trebuchet MS;
+    border-color: blue;
 
 }
 body {
