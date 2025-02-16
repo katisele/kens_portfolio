@@ -109,6 +109,7 @@ div.mycontainer div {
     margin: auto;
 }
 
-li {
-    
-}
+.grid-container {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+  }
