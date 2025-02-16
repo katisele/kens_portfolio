@@ -69,13 +69,27 @@ table {
   font-family:trebuchet ms;
   border-collapse: collapse;
   width: 100%;
+  
 }
 
-td, th {
+ td, th {
   border: 1px solid #dddddd;
   text-align:justify;
   padding: 8px;
 }
 
 tr:nth-child(even) {
-  background-color: #dddddd;
+  background-color: #a38383;
+  
+}
+
+tr:hover {
+    background-color: #da9595;
+}
+
+th:nth-child(even) {
+    background-color: #c4cbc4;
+}
+tr {
+    border-bottom: 1px solid;
+}
