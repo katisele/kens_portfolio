@@ -35,12 +35,12 @@ p {
 }
 
 section {
-    width: 500px;
+    width: 700px;
     margin: auto;
 }
 
 main {
-    width: 500px;
+    width: 700px;
     margin: auto;
 }
 
@@ -48,7 +48,7 @@ body {
     width: 700px;
     margin: auto;
     text-align: justify;
-    padding: 10px;
+    padding: 30px;
 }
 
 h1 {
@@ -90,7 +90,22 @@ tr:hover {
 th:nth-child(even) {
     background-color: #c4cbc4;
 }
+
 tr {
     border-bottom: 1px solid;
 }
 
+div.mycontainer {
+    width: auto;
+    overflow: auto;
+}
+
+div.mycontainer div {
+    width: 33%;
+    float: left;
+    text-align: left;
+}
+
+li {
+    
+}
