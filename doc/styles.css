@@ -109,6 +109,7 @@ div.mycontainer div {
     margin: auto;
 }
 
+/* suitable for tables - side-by-side */
 .grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -120,13 +121,44 @@ div.mycontainer div {
     margin: 5px;  
 }
 
+
 * {
     box-sizing: border-box;
 }
+
+/* this helps to ensure the site fits all device types */
 
 @media screen and (max-width:800px) {
     width: 100%;
     
 } 
-    
+    /* this is to showcase CSS styling for sectinos and articles.  */
+.all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: lightgray;
+}
+  
+.all-browsers > h1, .browser {
+    margin: 10px;
+    padding: 5px;
+}
+ 
+.browser {
+    background: white;
+}
+  
+.browser > h2, p {
+    margin: 4px;
+    font-size: 90%;
+}
 
+/* aside creates a small screen to highlight something about the page */
+aside {
+    width: 30%;
+    padding-left: 15px;
+    margin-left: 15px;
+    float: right;
+    font-style: italic;
+    background-color: lightgray;
+}
