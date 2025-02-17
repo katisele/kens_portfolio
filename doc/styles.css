@@ -112,4 +112,11 @@ div.mycontainer div {
 .grid-container {
     display: grid;
     grid-template-columns: 33% 33% 33%;
-  }
+}
+
+.key {
+    background-color: rgb(170, 240, 155);
+    padding: 3px;
+    margin: 5px;
+}
+
