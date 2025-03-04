@@ -9,9 +9,13 @@ h1 {
 
 }
 body {
-    font-family: Trebuchet MS;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: antiquewhite;
-    background-image:none
+    /* to add image, use background-image: url() point to the image you want. for now, background image is set to none */
+    background-image: none;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
 }
 
 section li {
@@ -59,9 +63,8 @@ h1 {
 }
 
 a:hover, a:active {
-    color: red;
-    text-decoration: underline;
-    background-color:burlywood;
+    color: rgb(249, 76, 76);
+    text-decoration: none;
     display: inline-block;
     padding: 5px 5px;
 }
@@ -205,12 +208,30 @@ summary {
 /* rotate the line when open */
 details[open] summary::after {
     transform: rotate(0deg);
+    
 }
 
+
+details[open] p {
+    animation: animateDown 0.2s linear forwards;
+}
+
+@keyframes animateDown {
+    0% {
+        opacity: 0;
+        transform: translate(-15px);
+    }
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
+}
 
 details {
     border-block-end: 1px solid #000;
     margin-block: .5rem;
     padding-block: .5rem;
+    text-align: justify;
+    letter-spacing: .5px;
 
 }
