@@ -10,7 +10,7 @@ h1 {
 }
 body {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    background-color: antiquewhite;
+    
     /* to add image, use background-image: url() point to the image you want. for now, background image is set to none */
     background-image: none;
     background-repeat: no-repeat;
@@ -82,17 +82,19 @@ table {
   padding: 8px;
 }
 
-tr:nth-child(even) {
-  background-color: #a38383;
-  
-}
-
 tr:hover {
-    background-color: #da9595;
+    background-color: #cf700b;
 }
 
+/* this gives a background color to the column by either even or odd */
 th:nth-child(even) {
-    background-color: #c4cbc4;
+    background-color: white;
+}
+
+/* this gives a background color to the row by either even or odd */
+tr:nth-child(even) {
+    background-color: white;
+    
 }
 
 tr {
@@ -234,4 +236,10 @@ details {
     text-align: justify;
     letter-spacing: .5px;
 
+}
+
+/* Using position: sticky */
+h1.sticky {
+    position: sticky;
+    top: 0;
 }
