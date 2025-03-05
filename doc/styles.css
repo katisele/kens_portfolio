@@ -45,15 +45,15 @@ section {
 }
 
 main {
-    width: 700px;
+    width: 800px;
     margin: auto;
 }
 
 body {
-    width: 700px;
+    width: 800px;
     margin: auto;
     text-align: justify;
-    padding: 30px;
+    padding: .5px;
 }
 
 h1 {
@@ -126,9 +126,29 @@ div.mycontainer div {
     margin: 5px;  
 }
 
-
+/* grid of boxes - float boxes side by side */
 * {
     box-sizing: border-box;
+}
+
+.img-container { 
+    /* this is for my image container class on the home page */
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+.box {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+    overflow: auto;
 }
 
 /* this helps to ensure the site fits all device types */
@@ -255,6 +275,9 @@ div {
     float: right;
 }
 
-.clearfix {
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
     overflow: auto;
 }
